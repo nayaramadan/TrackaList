@@ -6,24 +6,70 @@
             h2 {text-align: center;}
             h3 {text-align: center;}
             p {text-align: center;}
-            body {background-color: #ecbfe9;}
+            body {background-color: #e0b7dd;}
+            body {font-family: monospace, courier;}
+            body {color: #ffffff;}
+            .small {font-size: 11px;}
+
+            /* Full-page border */
+            html { height: 100%; box-sizing: border-box; }
+            *, *::before, *::after { box-sizing: inherit; }
+            body {
+                margin: 0;
+                padding: 22px;
+                min-height: 100vh;
+                border: 8px solid rgb(106, 167, 121);;
+                border-radius: 12px;
+                background-clip: padding-box;
+            }
+
+
+            .button {
+                background-color: rgb(153, 187, 156);
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                font-family: monospace, courier;
+                cursor: pointer;
+            }
+
+            .button {
+                transition: transform 120ms ease, box-shadow 120ms ease, background-color 120ms ease;
+            }
+
+            .button:hover {
+                transform: translateY(-2px) scale(1.02);
+                box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+                background-color: rgb(115, 210, 137);
+            }
+
+
+
         </style>
-    # This is the homepage of TrackaList
         <title>Welcome to TrackaList!</title> <br>
     </head>
     <body>
-        <h1>Planner Pain?</h1> 
-        <p> Trackalist is a simple web project that lets students like you track their assignments through a simple list!</p>
-        <h2> What's so good about Trackalist?</h2>
-        <p> Trackalist being a simple web application is the best part of it!</p>
-        <p> Simplicity is important to avoid that overwhelming sense of a planner. The purpose of a planner is to help you with your day-to-day life, not to cause more stress!</p><br>
-        <h3> Trackalist features include:</h3> 
-        <p> Creating an assigment/task </p> 
-        <p> Creating a simple list of these tasks that are very well organized </p> 
-        <p> A checklist to mark when you've finished a task</p> 
-        <p> A simple timer </p>
-        <p> Cute themes and colors </p>
-        <p> And more! </p>
-        <p> Ready to start?</p>
+        <h1>🌷 Welcome to Trackalist 🌷</h1> 
+        <p> Trackalist is a simple web project that helps students (like you!) organize your school life!</p>
+        <h2>🌺What's so good about Trackalist?🌺</h2>
+        <p> Trackalist offers a free app template for you to personalize to your own needs.</p>
+        <p> Simplicity is important to avoid that overwhelming sense of planning out your day. The purpose of a planner is to help you with your day-to-day life, not to cause more stress!</p> <br>
+        <h3> Trackalist features include:</h3>
+        <ul>
+        <li> Creating an assignment/task </li>
+        <li> Creating a simple list of these tasks that are very well organized </li>
+        <li> A checklist to mark when you've finished a task</li>
+        <li> A simple timer </li>
+        <li> Cute themes and colors </li>
+        <li> And more! </li>
+    </ul>
+    <p> Are you ready for an academic upgrade?</p> <br>
+    <p><button type="button" class="button">Launch Planner!</button></p>
+    <br>
+    <p class="small">created by naya</p>
     </body>
 </html>
