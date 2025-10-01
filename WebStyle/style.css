@@ -3,11 +3,12 @@
 h1 {text-align: center;}
             h2 {text-align: center;}
             h3 {text-align: center;}
-            p {text-align: center;}
+            p {text-align: center;
+               font-size: 20x;}
             body {background-color: #8d5649;}
             body {font-family: monospace, courier;}
             body {color: #ffffff;}
-            .small {font-size: 11px;}
+            .small {font-size: 20px;}
 
             /* Full-page border */
             html { height: 100%; box-sizing: border-box; }
@@ -32,7 +33,7 @@ h1 {text-align: center;}
         display: block;         /* makes margin:auto work */
         margin: 18px auto;      /* centers the button */
         width: max-content;     /* shrink to fit content */
-        font-size: 16px;
+        font-size: 18px;
         font-family: monospace, courier;
         cursor: pointer;
         transition: transform 120ms ease, box-shadow 120ms ease, background-color 120ms ease;
