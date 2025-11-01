@@ -27,6 +27,8 @@ What should I do in the future to elevate Trackalist, or even other projects?
 I definitely know that compared to others, my time within this project was not fully committed to coding. A few chunks of the entire 10-ish hours was spent JUST learning how to do everything with ease.
 Now that I am more knowledgeable, I will definitely be able to spend majority of my time coding HTML and CSS in the future. However, I would also like to try and gain some more familiarity with other languages; from this project, javascript, and in majority of my future projects, ESPECIALLY python!!
 
+***Note: A lot of my time was also spent configuring the git through terminal and powershell!
+
 Big thanks to w3schools and other sources for guiding me through the whole process, as well as the very helpful AthenaAward links within the Slack!!
 
 Thank you for viewing my project!! I hope to update Trackalist much more, even outside of AthenaAwards!
