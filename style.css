@@ -1,42 +1,27 @@
-
-h1, h2, h3, p { text-align: center; }
-p { font-size: 20px; }
-
-html { height: 100%; box-sizing: border-box; }
+﻿/* style.css - minimal styles for your site */
+html { box-sizing: border-box; height: 100%; }
 *, *::before, *::after { box-sizing: inherit; }
 
 body {
   margin: 0;
   padding: 22px;
   min-height: 100vh;
-  background-color: #8d5649;
+  background: #e0b7dd;
+  color: #111;
   font-family: monospace, courier;
-  color: #ffffff;
-  border: 8px solid #d38839;
-  border-radius: 12px;
-  background-clip: padding-box;
 }
 
-.small { font-size: 20px; }
+p { font-size: 18px; text-align: center; }
 
 .button {
-  background-color: #d38839;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
   display: block;
   margin: 18px auto;
-  width: max-content;
-  font-size: 18px;
-  font-family: monospace, courier;
+  padding: 12px 24px;
+  background: #d38839;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
   cursor: pointer;
-  transition: transform 120ms ease, box-shadow 120ms ease, background-color 120ms ease;
+  transition: transform .12s ease, box-shadow .12s ease;
 }
-
-.button:hover {
-  transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 6px 18px rgba(59, 31, 31, 0.12);
-  background-color: rgb(209, 177, 147);
-}
+.button:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
