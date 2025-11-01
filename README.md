@@ -32,3 +32,5 @@ Now that I am more knowledgeable, I will definitely be able to spend majority of
 Big thanks to w3schools and other sources for guiding me through the whole process, as well as the very helpful AthenaAward links within the Slack!!
 
 Thank you for viewing my project!! I hope to update Trackalist much more, even outside of AthenaAwards!
+
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
