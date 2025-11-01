@@ -1,42 +1,38 @@
 
+h1, h2, h3, p { text-align: center; }
+p { font-size: 20px; }
 
-h1 {text-align: center;}
-            h2 {text-align: center;}
-            h3 {text-align: center;}
-            p {text-align: center;
-               font-size: 20x;}
-            body {background-color: #8d5649;}
-            body {font-family: monospace, courier;}
-            body {color: #ffffff;}
-            .small {font-size: 20px;}
+html { height: 100%; box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
 
-            /* Full-page border */
-            html { height: 100%; box-sizing: border-box; }
-            *, *::before, *::after { box-sizing: inherit; }
-            body {
-                margin: 0;
-                padding: 22px;
-                min-height: 100vh;
-                border: 8px solid #d38839;
-                border-radius: 12px;
-                background-clip: padding-box;
-            }
+body {
+  margin: 0;
+  padding: 22px;
+  min-height: 100vh;
+  background-color: #8d5649;
+  font-family: monospace, courier;
+  color: #ffffff;
+  border: 8px solid #d38839;
+  border-radius: 12px;
+  background-clip: padding-box;
+}
 
+.small { font-size: 20px; }
 
-            .button {
-        background-color: #d38839;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: block;         /* makes margin:auto work */
-        margin: 18px auto;      /* centers the button */
-        width: max-content;     /* shrink to fit content */
-        font-size: 18px;
-        font-family: monospace, courier;
-        cursor: pointer;
-        transition: transform 120ms ease, box-shadow 120ms ease, background-color 120ms ease;
+.button {
+  background-color: #d38839;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 18px auto;
+  width: max-content;
+  font-size: 18px;
+  font-family: monospace, courier;
+  cursor: pointer;
+  transition: transform 120ms ease, box-shadow 120ms ease, background-color 120ms ease;
 }
 
 .button:hover {
